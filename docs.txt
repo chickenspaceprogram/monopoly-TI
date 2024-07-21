@@ -1,6 +1,6 @@
 Note: This project is still in active development, so it is not exactly user-friendly. Apologies in advance for any inconvenience.
 
-monopoly-TI v.0.1.0 (beta)
+monopoly-TI v.0.1.1 (beta)
 docs.txt
 
 PROGRAM STRUCTURE:

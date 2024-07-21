@@ -1,6 +1,6 @@
 Note: This project is still in active development, so it is not exactly user-friendly. Apologies in advance for any inconvenience.
 
-monopoly-TI v.0.1.0 (beta)
+monopoly-TI v.0.1.1 (beta)
 readme.txt
 
 COMPATIBILITY:
@@ -28,10 +28,14 @@ To use this program, simply download MONOPOLY.8xg and send it to your calculator
 
 Then, run these programs in the following order:
 
-prgmMONOGEN
-prgmREFLM
-prgmRREFLM
-prgmGETPROBS
+prgmMONOGEN   (runtime: 35s)
+prgmREFLM     (runtime: ~17min)
+prgmRREFLM    (runtime: 50s)
+prgmGETPROBS  (runtime: instant)
+
+Total runtime (TI-84+): ~18min
+
+These times are approximate, runtime can vary depending on a number of factors. If you have a TI-83/83+, expect your runtimes to be roughly 2.5 times longer (~45min total) due to the slower clock speed on those calculators.
 
 For this application to work, the following subprograms must also be present on your calculator:
 
