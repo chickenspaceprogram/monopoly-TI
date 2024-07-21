@@ -11,7 +11,7 @@ assignees: chickenspaceprogram
 A clear and concise description of what the bug is.
 
 **To Reproduce**
-If you know the conditions that cause the behavior to occur or can describe what you did before the bug occurred, put that here.
+If you know the conditions that cause the behavior to occur or can describe what you did before the bug occurred, put that here. Also, include the most recent messages displayed on the screen.
 
 **Expected behavior**
 A clear and concise description of what you expected to happen.
