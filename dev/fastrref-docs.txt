@@ -1,0 +1,36 @@
+Note: This project is still in active development, so it is not exactly user-friendly. Apologies in advance for any inconvenience.
+
+monopoly-TI v0.2.0 (beta)
+fastrref-docs.txt
+
+DESCRIPTION:
+
+prgmFASTRREF is intended to be a faster way to find the reduced echelon form of certain matrices. It doesn't reduce the total number of operations that need to be performed; rather, it ensures that as many of those operations as possible are performed by the calculator's inbuilt subroutines rather than by TI-BASIC code.
+
+This speeds up the overall calculation since the inbuilt subroutines are far faster than anything coded in TI-BASIC.
+
+HOW IT WORKS:
+
+At a high level, here's what happens:
+
+--- 1 - Partition the matrix into blocks ---
+
+[E] = [ [F] [G] ]
+      [ [H] [I] ]
+
+--- 2 - Reduce it into block-upper-triangular form ---
+
+[E] ~ [ [F]          [G]        ]
+      [  0   [I] - [H][F^-1][G] ]
+
+[I] - [H][F^-1][G] can just be calculated directly with matrix multiplication and inversion, and this calculation only takes up at minimum about 12000 bytes at a time, well within the margin we have to work with.
+
+--- 3 - Reduce resulting top and bottom blocks separately with rref() ---
+
+rref( [ [F]  [G] ] )
+rref( [  0  [I] - [H][F^-1][G] ] )
+
+--- 4 - Recombine blocks into a single matrix ---
+--- 5 - Reduce the upper right corner with a TI-BASIC program ---
+
+And that should reduce [E] to reduced row echelon form!
