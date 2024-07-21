@@ -1,4 +1,4 @@
-monopoly-TI v1.0
+monopoly-TI v1.0.2
 
 ---OPERATING REQUIREMENTS---
 
