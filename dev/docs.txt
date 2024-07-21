@@ -1,6 +1,4 @@
-Note: This project is still in active development, so it is not exactly user-friendly. Apologies in advance for any inconvenience.
-
-monopoly-TI v.0.2.0 (beta)
+monopoly-TI v1.0
 docs.txt
 
 PROGRAM STRUCTURE:
@@ -15,8 +13,8 @@ prgmFASTRREF
 
 prgmGETPROBS
 
-The programs in subroutines here run consecutively, one after the other. As such, it would be very easy to combine most of the code into a singular program. However, breaking the program into subroutines and functions as done here makes it easier to troubleshoot, which is why that was done here.
+The programs in subroutines here run consecutively, one after the other. As such, it would be very easy to combine most of the code into a singular program. However, breaking the program into subroutines and functions as done here makes it easier to troubleshoot.
 
 VARIABLES USED:
 
-Many real variables were used, as well as lists L1, PROBS, and RREF. Matrix [E] was used to store the main matrix. More detail on when these variables are used will be provided in future versions of this documentation.
+Many real variables were used, as well as lists L1, PROBS. Matrices [E]-[J] were also used. More detail on when these variables are used may be provided in future versions of this documentation.

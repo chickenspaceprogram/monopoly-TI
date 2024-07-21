@@ -1,6 +1,4 @@
-Note: This project is still in active development, so it is not exactly user-friendly. Apologies in advance for any inconvenience.
-
-monopoly-TI v0.2.0 (beta)
+monopoly-TI v1.0
 fastrref-docs.txt
 
 DESCRIPTION:
@@ -33,4 +31,4 @@ rref( [  0  [I] - [H][F^-1][G] ] )
 --- 4 - Recombine blocks into a single matrix ---
 --- 5 - Reduce the upper right corner with a TI-BASIC program ---
 
-And that should reduce [E] to reduced row echelon form!
+These last two steps are pretty self-explanatory; besides memory shenanigans to minimize archiving/unarchiving variables there's really nothing special.
